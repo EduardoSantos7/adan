@@ -1,0 +1,29 @@
+{
+    "name": "chat",
+    "version": "1.0.0",
+    "description": "Real time chat to serve Eva System.",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "nodemon --exec npm run babel-node -- dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "babel-node": "babel-node --presets='@babel/preset-env'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EduardoSantos7/adan.git"
+    },
+    "author": "Eduardo Luis Santos Delgado",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/EduardoSantos7/adan/issues"
+    },
+    "homepage": "https://github.com/EduardoSantos7/adan#readme",
+    "dependencies": {
+        "@types/socket.io": "^2.1.11",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/node": "^7.12.1"
+    }
+}
